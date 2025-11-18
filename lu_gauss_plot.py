@@ -47,6 +47,7 @@ plt.title("Runtime comparison: LU vs Gaussian elimination")
 plt.grid(True)
 plt.legend()
 plt.tight_layout()
-plt.show()
+plt.savefig("lu_vs_gauss_plot.png", dpi=150)
+print("Saved plot as lu_vs_gauss_plot.png")
 
 
